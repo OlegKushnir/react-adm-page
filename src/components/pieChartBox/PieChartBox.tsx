@@ -12,7 +12,7 @@ const PieChartBox = (props: Props) => {
     <div className="pieChartBox">
       <h1>{props.title}</h1>
       <div className="chart">
-        <ResponsiveContainer width="99%" height={300}>
+        <ResponsiveContainer width="99%" height="80%">
           <PieChart>
             <Tooltip
               contentStyle={{ background: "white", borderRadius: "5px" }}
